@@ -1,0 +1,698 @@
+html{
+	overflow: hidden;
+}
+.container{
+	margin-top: 20px;
+}
+
+.logo-mobile{
+  display: none;
+}
+
+.mobile-container img{
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+.logo img{
+	display: block;
+	width: 70%; 
+	margin: auto;
+}
+
+.scanner{
+	margin-left: 20%;
+}
+
+.scanner h2{
+	text-align: center;
+    font-weight: 600;
+    color: #124870;
+    margin-top: 30px;
+}
+
+.scanner .btn{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.icons{
+	width: 40%;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
+.icons img{
+	width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fc{
+	margin: 0px 60px 0px !important;
+}
+
+.mob-content{
+	margin-left: 25%;
+    pointer-events: none;
+}
+
+.activebtn {
+    background: #122d41 !important;
+    border: none !important;
+}
+
+.fc .fc-image-mask{background:none !important; }
+.fczindex .fc-image-mask{z-index: -1;}
+
+.fc .fc-film{top:-20px !important; height: 461px !important;}
+.host .fc-image-mask {
+    height: 434px !important;
+    top: 14.5% !important;
+    z-index: 0;
+    left: 7.8% !important;
+    width: 55.855% !important;
+}
+.host .fc-film{top:-22px !important}
+
+.desktop .fc-image-mask {
+    top: 3% !important;
+    left: 4% !important;
+    width: 92% !important;
+    height: 55% !important;
+    z-index: -1;
+}
+
+.desktop .fc-film{
+top:0px !important;
+height:82% !important;
+}
+
+.hostt_index {
+    z-index: 4;
+}
+
+.myhost{
+        background-image: url(../img/black.png) !important;
+    width: 454px !important;
+    height: 618px !important;
+}
+.firstclick{
+     background-image: url(../img/cover.png) !important;
+     opacity: 1;
+     width: 454px !important;
+    height: 618px !important;
+}
+
+.hostD .fc-image-mask{
+    left: 7.8% !important;
+    top: 14.2% !important;
+    width: 55.5% !important;
+    height: 74% !important;
+}
+
+.hostF .fc-image-mask{
+    left: 7.8% !important;
+    top: 14.2% !important;
+    width: 55.5% !important;
+    height: 75% !important;
+}
+
+.hostC .fc .fc-film{
+    top: -20px !important;
+    height: 461px !important;
+
+}
+
+.hostD .fc .fc-film{
+    top: -20px !important;
+    height: 461px !important;
+   
+}
+
+.hostC .fc .fc-film{ height: 456px !important; }
+/* ____________________________________________ */
+
+.hostB{
+    height: 638px !important;
+}
+
+
+.hostD{
+height:595px !important;
+}
+
+.hostD .fc-image-mask {
+    left: 7.8% !important;
+    top: 14.2% !important;
+    width: 58% !important;
+    height: 76% !important;
+}
+
+.hostF{
+height:595px !important;
+}
+
+.hostF .fc-image-mask {
+    left: 7.8% !important;
+    top: 14.2% !important;
+    width: 58% !important;
+    height: 76% !important;
+}
+
+.hostF .fc .fc-film{
+top: -25px !important;
+height: 469px !important;
+}
+
+.hostC .fc-image-mask{
+    left: 4% !important;
+    top: 13.6% !important;
+    width: 56.5% !important;
+    height: 72% !important;
+}
+
+.hostA .fc-image-mask{
+top:15.6% !important;
+}
+
+.hostB .fc-image-mask{
+top:14.9% !important;
+}
+
+.hostE .fc-image-mask{
+left: 4% !important;
+    top: 13.6% !important;
+    width: 56.5% !important;
+    height: 72% !important;
+}
+
+.mob-menu{
+    display: none;
+}
+.menu-open{
+    display: none;
+}
+
+
+
+/* Mobile View */
+
+@media screen and (max-width: 736px) and (min-width: 421px){
+
+  .hostG{
+    left: -30% !important;  
+  }
+
+}
+
+
+@media only screen and (max-width: 736px) {
+ 
+ * {
+    box-sizing: border-box;
+}
+
+.logo-mobile{
+  position: relative;
+  top: -20px;
+  display: block;
+  width: 40%;
+   margin: auto;
+}
+.logo-mobile img{
+  width: 100%;
+}
+
+.logo-content .logo{
+  display: none;
+}
+
+.mob-menu{
+    display: block;
+}
+.menu-open{
+    display: block;
+      float: right;
+      position: relative;
+      top: 6px;
+}
+.fc{
+    width: 65vw !important;
+
+}
+.fc .fc-image-mask {
+    top: 7.6% !important;
+}
+
+.fc .fc-film {
+    top: -9px !important;
+    height: 235px !important;
+}
+
+.hostA .fc-image-mask{
+   width: 56% !important;
+    left: 31% !important; 
+}
+
+.hostB .fc-image-mask{
+   width: 56% !important;
+    left: 31% !important; 
+}
+
+.logo-content{
+    display: block;
+    float: left;
+    /*top: -667px;*/
+    top: -103vh !important;
+    left: -74px;
+    background: #fff;
+    border: 1px solid #4d728c;
+    height: 100vh !important;
+    display: none;
+}
+
+.hostA {
+    background-image: url("http://umi.e-commerce-hongkong.com/img/cover_mobile.png") !important;
+}
+
+.hostB {
+    background-image: url("http://umi.e-commerce-hongkong.com/img/cover_mobile.png") !important;
+}
+.hostA.fc-collapsed {
+    background-image: url("http://umi.e-commerce-hongkong.com/img/cover_mobile.png") !important;
+}
+
+.hostB.fc-collapsed {
+    background-image: url("http://umi.e-commerce-hongkong.com/img/cover_mobile.png") !important;
+}
+
+.hostA.fc.fc-collapsed {
+    display: block !important;
+    margin: auto !important;
+}
+
+.fc {
+    width: 85vw !important;
+}
+
+
+.fc .fc-image-mask {
+   /* top: 6.6% !important;*/
+    top: 7.6% !important;
+    z-index: -1;
+}
+
+.fc .fc-film {
+    top: 10px !important;
+    height: 49vh !important;
+}
+
+.fc.fc-collapsed {
+    margin: auto !important;
+}
+.mob-content {
+    margin: auto !important;
+}
+
+.hostD{
+   width: 50vw !important; 
+   top:-604px !important;
+
+
+}
+.hostC{
+    width: 50vw !important;
+    left: 30% !important;
+}
+
+.hostD .fc-image-mask{
+   width: 84% !important;
+   left: 11.8% !important; 
+}
+
+.hostD .fc-film{
+    height: 43.4vh !important;
+    top: -3vh !important;
+
+  /* height: 255px !important;
+   top: 4px !important; */
+}
+
+
+.hostC .fc-image-mask{
+    /*height: 45vh !important;*/
+    width: 45vw !important;
+    height: 44.3vh !important;
+   /*width: 91.5% !important;
+    height: 46% !important;*/
+}
+
+
+.hosting{
+    height: 96.4vh !important;
+}
+
+.hostF{
+   width: 50vw !important; 
+   top:-604px !important;
+
+}
+.hostE{
+    width: 50vw !important;
+    left: 30% !important;
+
+}
+
+.hostF .fc-image-mask{
+   width: 84% !important;
+   left: 11.8% !important; 
+}
+
+.hostF .fc-film{
+   height: 40.5vh !important;
+    top: 0vh !important;
+
+  /* height: 255px !important;
+   top: 4px !important; */
+}
+
+.hostE .fc-image-mask{
+    height: 45vh !important;
+    width: 45vw !important;
+
+   /*width: 91.5% !important;
+    height: 46% !important;*/
+}
+
+.desktop{
+  /*  top: -265px !important;*/
+
+  top: -333px !important;
+  height: 72vh !important;
+  right: 235px !important;
+  opacity: 1 !important;
+/*    opacity: 1 !important;
+    display: inline-block !important;*/
+}
+
+.hostG{
+    width: 50vw !important;
+    left: -30%;
+    height: 54vh !important;
+   /* top: 223px !important;*/
+    /*left: -9% !important;*/
+    top: 229px !important;
+
+    /*opacity: 1 !important;
+    display: inline-block !important;*/
+}
+
+
+.desktop .fc-image-mask {
+    top: 0% !important;
+    left: 4% !important;
+    width: 92% !important;
+    height: 37% !important;
+    z-index: -1 !important;
+}
+
+
+.hostG .fc-image-mask{
+    left: 4.5% !important;
+    width: 80.5% !important;
+    height: 75% !important;
+    top: 11% !important;
+}
+   
+.scanner .btn {
+    width: 55% !important;
+}
+.desktop .fc-film {
+    height: 26.5vh !important;
+}
+
+.hostG .fc-film {
+    height: 40vh !important;
+}
+
+.hostB .fc-film{
+    height: 49vh !important;
+
+}
+
+.hostB .fc-image-mask{
+   top:6.6% !important;
+    
+}
+.hostC .fc-film{
+    top: 4px !important;
+   /* height: 50vh !important;*/
+   height: 45vh !important;
+   left: 2px !important;
+}
+
+.hostE .fc-film{
+    top: -1vh !important;
+    height: 45vh !important;
+}
+
+.hostE .fc-image-mask{
+    left: 5% !important;
+}
+}
+
+
+
+@media only screen (max-width: 400px){
+    .hostD .fc-film{
+    /*height: 41vh !important;
+    top: 1vh !important;*/
+
+   height: 255px !important;
+   top: 4px !important; 
+}
+
+.hostC .fc-image-mask{
+   /* height: 45vh !important;
+    width: 45vw !important;*/
+
+   width: 91.5% !important;
+    height: 46% !important;
+}
+
+.hostF .fc-film{
+   /*height: 41vh !important;
+    top: 1vh !important;*/
+
+   height: 255px !important;
+   top: 4px !important; 
+}
+
+.hostE .fc-image-mask{
+    /*height: 45vh !important;
+    width: 45vw !important;*/
+
+   width: 91.5% !important;
+    height: 46% !important;
+}
+
+.logo-content{
+    top: -102.6vh !important;
+}
+
+}
+
+
+@media screen and (min-device-width : 736px) and (max-device-width : 992px){ 
+
+      .mob-content{
+        margin-left: 10%;
+        top: 200px;
+      }
+
+      .logo-mobile{
+  display: none;
+}
+
+      .hostG{
+        left: 30% !important;
+      }
+      .hostC{
+        left: 30% !important;
+      }
+
+      .hostE{
+        left: 30% !important;
+      }
+
+      .scanner{
+        margin-left: 0%;
+      }
+
+      .scanner .btn{
+        display: inline-block;
+        width: 19%;
+      }
+
+      .logo-content{
+        width: 100%;
+        right: 0px;
+      }
+
+      .icons{
+        margin-top: 4px;
+      }
+
+      .logo{
+        position: relative;
+        top: -642px;
+      }
+      
+      .scanner h2{
+        position: relative;
+        top: -642px;
+      }
+
+
+}
+
+
+@media screen and (max-width: 420px){
+  .hostA .fc-film{
+    height: 55% !important;
+    top: 15.5px !important;
+  }
+
+    .hostA .fc-image-mask {
+        height: 105% !important;
+    }
+
+
+  .hostB .fc-film{
+    height: 55.4% !important;
+    top: 15.5px !important;
+  }
+
+  .hostB .fc-image-mask {
+        height: 100% !important;
+    }
+
+  .hostC .fc-film{
+    height: 100% !important;
+    top: -2.8% !important;
+  }
+
+  /*.hostD .fc-film{
+    height: 70.2% !important;
+    top: -2.8% !important;
+  }*/
+
+  .hostE .fc-film{
+    height: 101.8% !important;
+    top: -4.2% !important;
+  }
+  
+  .hostF .fc-film{
+    height: 70.2% !important;
+    top: -2.8% !important;
+  }
+
+  .desktop .fc-film{
+    height: 98.8% !important;
+    top: 13.2px !important;
+
+  }
+  .hostB .fc-film{
+    height: 55.4% !important;
+    top: 15.5px !important;
+  }
+
+  .hostB .fc-image-mask {
+        height: 100% !important;
+    }
+
+  .hostG .fc-image-mask {
+      width: 81.1% !important;
+  }
+
+  .hostG .fc-film {
+    height: 104% !important;
+    top: -13px !important;
+}
+
+.hostG{
+  top: 120px !important;
+  left: -50%;
+
+}
+
+.hostC .fc-image-mask{
+  height: 55% !important;
+}
+.hostE .fc-image-mask{
+  height: 55% !important;
+}
+
+.hostD .fc-image-mask{
+    width: 86% !important;
+    left: 10.8% !important;
+}
+
+.hostD .fc-film {
+    height: 71.2% !important;
+    top: -3.8% !important;
+   /* width: 150.8% !important;*/
+}
+
+.desktop .fc-image-mask{
+  height: 38% !important;
+}
+
+}
+
+
+@media screen and (max-width: 380px){
+
+  .hostA .fc-film{
+    top: 9px !important;
+  }
+
+  .hostB .fc-film{
+    top: 10px !important;
+    height: 50% !important;
+  }
+
+  .logo-content{
+    top: -682px !important;
+  }
+
+  .hostG .fc-image-mask {
+      width: 80.5% !important;
+  }
+
+  .hostD .fc-film{
+    height: 63.5% !important;
+  }
+
+  .hostC .fc-film{
+    height: 89% !important;
+  }
+
+  .hostF .fc-film{
+    height: 62.5% !important;
+  }
+
+  .hostE .fc-film{
+    height: 89% !important;
+  }
+}
